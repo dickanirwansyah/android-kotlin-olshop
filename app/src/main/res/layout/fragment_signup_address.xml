@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.authentication.signup.SignupAddressFragment">
+
+    <LinearLayout
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="16dp"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            android:layout_width="match_parent"
+            android:text="@string/phone_no"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            style="@style/EditText.PoppinsNormal14sp8D92A3"
+            android:background="@drawable/field_rectangle"
+            android:hint="@string/type_your_phone_number"
+            android:padding="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            android:text="@string/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:hint="@string/type_your_address"
+            android:padding="10dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/field_rectangle"
+            style="@style/EditText.PoppinsNormal14sp8D92A3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:text="@string/house_no"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:padding="10dp"
+            android:background="@drawable/field_rectangle"
+            style="@style/EditText.PoppinsNormal14sp8D92A3"
+            android:hint="@string/type_your_house_number"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:text="@string/city"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            style="@style/EditText.PoppinsNormal14sp8D92A3"
+            android:hint="@string/type_your_city"
+            android:background="@drawable/field_rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/buttonSignUpNow"
+            android:fontFamily="@font/poppins"
+            android:backgroundTint="#FFC700"
+            android:layout_marginTop="24dp"
+            android:text="@string/sign_up_now"
+            android:textColor="#202020"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

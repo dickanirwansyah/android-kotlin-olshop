@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.authentication.signup.SignupSuccessFragment">
+
+    <ImageView
+        android:id="@+id/imageViewYeaySuccess"
+        android:src="@drawable/ic_signup_success"
+        android:layout_width="200dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <TextView
+        android:id="@+id/textViewYeaySuccess"
+        style="@style/TextView.PoppinsNormal20sp020202"
+        android:text="@string/yeay_completed"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewYeaySuccess"/>
+
+    <TextView
+        android:id="@+id/textViewYeaySuccessSubTitle"
+        style="@style/TextView.PoppinsNormal14sp8D92A3"
+        android:text="@string/now_you_are_able_to_order_some_foods_as_a_self_reward"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="80dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYeaySuccess"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC700"
+        android:fontFamily="@font/poppins"
+        android:text="@string/find_foods"
+        android:textAllCaps="false"
+        android:textColor="#202020"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYeaySuccessSubTitle"
+        app:layout_constraintVertical_bias="0.155" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
